@@ -18,3 +18,13 @@
 -   [NestJS 공식문서](https://docs.nestjs.com/)
 -   [인프런 강의](https://www.inflearn.com/course/%ED%83%84%ED%83%84%ED%95%9C-%EB%B0%B1%EC%97%94%EB%93%9C-%EB%84%A4%EC%8A%A4%ED%8A%B8)
 -   [인프런 강의 자료](https://github.com/amamov/teaching-nestjs-a-to-z)
+
+## 질문
+
+Q. Pipe를 사용하는 사례는 알겠지만 정의는 모르겠어요
+
+> 파이프는 클라이언트 요청에서 들어오는 데이터를 유효성 검사 및 변환을 수행하여 서버가 원하는 데이터를 얻을 수 있도록 도와주는 클래스입니다.'
+> 파이프는 단방향 통신을 위한 용도로 사용됩니다. 하나의 파이프는 이전 파이프에서 전달된 결과를 입력 값으로 받아 또 다른 결과 값을 내놓습니다. NestJS에서의 파이프는 클라이언트 요청에서 들어오는 데이터를 유효성 검사 및 변환을 수행하여 서버가 원하는 데이터를 얻을 수 있도록 도와주는 역할을 합니다.
+> https://docs.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters
+> Q. 요청 > 필터 > 파이프 > 라우트 핸들러 이런식으로 흐름이 흘러가는건가요?
+> https://docs.nestjs.com/faq/request-lifecycle
