@@ -6,3 +6,10 @@ async function bootstrap() {
     await app.listen(8000);
 }
 bootstrap();
+
+/**
+ * 1. middleware
+ * 2. exception filter
+ * 3. pipes
+ * 4. nest-express vs nest-fasify
+ */
